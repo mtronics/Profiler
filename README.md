@@ -11,12 +11,12 @@ Put this at the start of your program:
 Profiler.startProfiler(Logger.LogLevel.INFO);
 ```
 _You can choose between the following log levels:_
--ALL
--DEBUG
--INFO
--WARNING
--ERROR
--CRITICAL
+- ALL
+- DEBUG
+- INFO
+- WARNING
+- ERROR
+- CRITICAL
 _Only log entries with the same or a higher log level (priority) will be logged._
 
 This should be standing at the end of your program:
