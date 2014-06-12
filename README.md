@@ -17,6 +17,7 @@ _You can choose between the following log levels:_
 - WARNING
 - ERROR
 - CRITICAL
+
 _Only log entries with the same or a higher log level (priority) will be logged._
 
 This should be standing at the end of your program:
@@ -30,4 +31,4 @@ Profiler.start("Process1");
   //Process
 Profiler.stop("Process1");
 ```
-_Note that "Process1" is only a placeholder for the name you want to give your process. It has to match in the `start` and `stop` statement._
+_Note that "Process1" is only a placeholder for the name you want to give your process. It has to match in the `start` and  `stop` statement._
