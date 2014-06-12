@@ -20,10 +20,14 @@ _You can choose between the following log levels:_
 
 _Only log entries with the same or a higher log level (priority) will be logged._
 
+<hr>
+
 This should be standing at the end of your program:
 ```
 Profiler.stopProfiler();
 ```
+
+<hr>
 
 For each process you want to measure the duration of, use this:
 ```
