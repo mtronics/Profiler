@@ -30,4 +30,4 @@ Profiler.start("Process1");
   //Process
 Profiler.stop("Process1");
 ```
-_Note that "Process1" is only a placeholder for the name you want to give your process. It has to match in the __start__ and __stop__ statement._
+_Note that "Process1" is only a placeholder for the name you want to give your process. It has to match in the `start` and `stop` statement._
